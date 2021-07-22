@@ -99,4 +99,4 @@ WHEN tip_amount > 10 THEN 'Good Tip'
 ELSE 'Something different'
 END AS TipRange,
 FROM `bigquery-public-data.new_york_taxi_trips.tlc_green_trips_2018` 
-LIMIT 100;
+LIMIT 100; 
